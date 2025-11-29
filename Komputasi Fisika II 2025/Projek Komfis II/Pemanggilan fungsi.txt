@@ -1,0 +1,8 @@
+Panggil fungsi turunan 2D (jurnal, gak dipake)
+>>fungsiturunan(@(x)sin(x),0,2*pi,2,0.1,3); 
+
+Panggil fungsi turunan 3D (Modifikasi)
+Parsial terhadap X
+>>fungsiturunan(@(x, y) sin(x).*cos(y), 0, 2*pi, 0, 2*pi, 2, 0.1, 3, 'x');
+Parsial terhadap Y
+>>fungsiturunan(@(x, y) sin(x).*cos(y), 0, 2*pi, 0, 2*pi, 2, 0.1, 3, 'y');
